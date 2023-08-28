@@ -16,3 +16,11 @@ img {
   display: block;
   max-width: 100%;
 }
+.widget {
+  text-align: center;
+}
+button {
+  padding: 8px 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
