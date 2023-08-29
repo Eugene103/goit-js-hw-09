@@ -28,9 +28,8 @@ startBtn.disabled = true;
 
       startBtn.addEventListener(`click`, () => {
         const timerId = setInterval(() => {
-          const hello = Number(ms) - 1000;
-          ms = hello;
-          console.log(ms)
+          const buffer = Number(ms) - 1000;
+          ms = buffer;
           function convertMs(ms) {
         const second = 1000;
         const minute = second * 60;
