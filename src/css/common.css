@@ -40,7 +40,23 @@ img {
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.label {
+.label,
+.item {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.form {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+}
+button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
