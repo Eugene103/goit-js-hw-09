@@ -7,6 +7,7 @@ function getRandomHexColor() {
 }
 
 let timerId = null;
+
 startBtn.addEventListener(`click`, () => {
     timerId = setInterval(() => {
     let randomColor = getRandomHexColor();
